@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?oxygen RNGSchema="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>MA.Camb.HU.Sack.L.1920.44.139</title>
+            <author>Author</author>
+            <respStmt>
+               <resp>Translation</resp>
+               <name>Translator</name>
+            </respStmt>
+            <respStmt>
+               <resp>Commentary</resp>
+               <name>Commenter</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Brown University</authority>
+            <idno type="USEpigraphy" xml:id="MA.Camb.HU.Sack.L.1920.44.139">MA.Camb.HU.Sack.L.1920.44.139</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <region>MA</region>
+                  <settlement>Camb</settlement>
+                  <institution>HU</institution>
+                  <repository>Sack</repository>
+                  <idno>1920.44.139</idno>
+                  <altIdentifier type="Harvard_Art_Museums_object_id">
+                     <idno>292153</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <textLang mainLang="lat"/>
+                  <msItem class="#fragmentary.inscription">
+                     <p>Fragment of a Roman inscription. The photograph appears to preserve the letters ANNI; the reading remains provisional because the surface is worn and the fragment is broken at both ends.</p>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc ana="#inscription.fragment">
+                     <supportDesc ana="#stone.marble">
+                        <support>
+                           <p>Small marble fragment bearing part of one line of an inscription.</p>
+                           <dimensions type="object" unit="cm">
+                              <height>4.5</height>
+                              <width>8</width>
+                           </dimensions>
+                        </support>
+                        <condition ana="#fragment.single #broken">
+                           <p>Single fragment broken on all sides; only a short sequence of letters is preserved.</p>
+                        </condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="1">
+                           <p>One preserved line of large capital letters.</p>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="1">
+                     <handNote ana="#inscribed">
+                        <p>Inscribed Roman capitals; reading from the photograph is uncertain, but the preserved letters more plausibly read ANNI.</p>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote ana="blank">
+                        <p> </p>
+                     </decoNote>
+                  </decoDesc>
+               </physDesc>
+               <history>
+                  <summary>
+                     <note>Roman marble inscription fragment, Harvard Art Museums object 1920.44.139.</note>
+                  </summary>
+                  <origin>
+                     <date evidence="#palaeography" notBefore="0001" notAfter="0300">1st-3rd century CE</date>
+                     <placeName ref="unknown">Roman world, exact place of origin unknown</placeName>
+                     <note>Roman Imperial period, Middle; Roman culture.</note>
+                  </origin>
+                  <provenance type="transferred" subtype="owned">
+                     <p>Owned by <persName role="owner"><name key="Elizabeth Gaskell Norton">Miss Elizabeth Gaskell Norton</name></persName>, Boston, MA, and <persName role="owner"><name key="Margaret Norton">Miss Margaret Norton</name></persName>, Cambridge, MA, by <date when="1920">1920</date>.</p>
+                  </provenance>
+                  <provenance type="transferred" subtype="given">
+                     <p>Gift of the Misses Norton to the <orgName role="recipient">Fogg Museum</orgName> in <date when="1920">1920</date>.</p>
+                     <note>The Misses Norton were daughters of Charles Elliot Norton (1827-1908).</note>
+                  </provenance>
+               </history>
+            </msDesc>
+            <listBibl>
+               <bibl>
+                  <ref type="external" target="https://hvrd.art/o/292153">Harvard University Art Museums web entry</ref>
+               </bibl>
+               <bibl>Susanne Ebbinghaus, ed., <title>Ancient Bronzes through a Modern Lens: Introductory Essays on the Study of Ancient Mediterranean and Near Eastern Bronzes</title>, Harvard Art Museum and Yale University Press (Cambridge, MA, 2014), p. 121.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://library.brown.edu/usep_data/resources/include_taxonomies.xml">
+            <xi:fallback>
+               <p>Taxonomies for US Epigraphy controlled values</p>
+            </xi:fallback>
+         </xi:include>
+      </encodingDesc>
+      <profileDesc/>
+      <revisionDesc>
+         <change when="2026-06-03" who="Simone Ciambelli">Created from the Harvard Art Museums PDF
+            record using MA.Camb.HU.Sack.L.1932.56.129.v as the template; inscription read from the
+            photograph.</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <desc>Fragment of an Inscription, Harvard Art Museums 1920.44.139; photo © President and Fellows of Harvard College.</desc>
+         <graphic url="MA.Camb.HU.Sack.L.1920.44.139.jpg"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition">
+            <ab>
+               <lb n="1"/>
+               <gap reason="lost" extent="unknown" unit="character"/>
+               <unclear>A</unclear><unclear>N</unclear><unclear>N</unclear><unclear>I</unclear>
+               <gap reason="lost" extent="unknown" unit="character"/>
+            </ab>
+         </div>
+         <div type="translation">
+            <p>Fragmentary text preserving the sequence [...]ANNI[...]. No secure translation is possible; the letters could belong to a word such as <foreign xml:lang="la">anni</foreign> or <foreign xml:lang="la">annis</foreign>, or to a longer name or formula.</p>
+         </div>
+         <div type="commentary">
+            <p>The museum record does not provide a transcription of the inscription. Re-examination of the photograph suggests that the visible sequence is better read as ANNI: the first complete letter appears to have two oblique strokes converging above, rather than a simple L; the following strokes fit two successive Ns and a final I. The breaks at both ends and the worn surface make the reading provisional.</p>
+            <p>The Harvard Art Museums record dates the object to the 1st-3rd century CE and identifies it as Roman, Roman Imperial period, Middle. The record was created from historic documentation and may be incomplete.</p>
+         </div>
+         <div type="apparatus">
+            <p>Reading from photograph: <mentioned>ANNI</mentioned>; all letters uncertain.</p>
+         </div>
+         <div type="bibliography">
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="http://library.brown.edu/usep_data/resources/titles.xml">
+               <xi:fallback>
+                  <p>US Epigraphy bibliography</p>
+               </xi:fallback>
+            </xi:include>
+         </div>
+      </body>
+   </text>
+</TEI>
